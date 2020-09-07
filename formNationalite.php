@@ -16,7 +16,7 @@ if($action == "Modifier"){
 
 
     <div class="container mt-5">
-        <h2 class="pt-4 text-center"><?php echo $action ?> une nationalité</h2>
+        <h2 class="pt-4 text-center pt-5"><?php echo $action ?> une nationalité</h2>
         <form action="valideFormNationalite.php?action=<?php echo $action ?>" method="post" class="col-md-6 offset-md-3 border border-primary p-3 rounded">
             <div class="form-group">
                 <label for="libelle">  <?php if($action == "Ajouter") {echo "Libellé";}?> </label>
